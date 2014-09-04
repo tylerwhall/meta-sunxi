@@ -13,7 +13,7 @@ PROVIDES = "virtual/libgles1 virtual/libgles2 virtual/egl"
 inherit distro_features_check
 REQUIRED_DISTRO_FEATURES = "opengl"
 
-SRCREV_pn-${PN} = "da9e2c1c84c1322150d5590cca9ba00b02c06528"
+SRCREV_pn-${PN} = "95bbd40135f96b473d4c713317e485d0049580cd"
 SRC_URI = "gitsm://github.com/raoulh/sunxi-mali.git"
 
 S = "${WORKDIR}/git"
