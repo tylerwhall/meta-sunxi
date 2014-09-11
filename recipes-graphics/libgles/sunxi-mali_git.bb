@@ -42,7 +42,6 @@ do_install() {
 
     mv ${D}${libdir}/libMali.so ${D}${libdir}/libMali.so.3
     ln -sf libMali.so.3 ${D}${libdir}/libMali.so
-    ln -sf libUMP.so.3 ${D}${libdir}/libUMP.so
 
     for flib in libEGL.so.1.4 libGLESv1_CM.so.1.1 libGLESv2.so.2.0 ; do
         rm ${D}${libdir}/$flib
