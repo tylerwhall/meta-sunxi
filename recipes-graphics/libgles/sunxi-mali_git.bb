@@ -70,7 +70,7 @@ do_install() {
 
 # Packages like xf86-video-fbturbo dlopen() libUMP.so, so we do need to ship the .so files in ${PN}
 FILES_${PN} += "${libdir}/lib*.so"
-FILES_${PN}-dev = "${includedir}"
+FILES_${PN}-dev = "${includedir} ${libdir}/pkgconfig/*"
 # These are closed binaries generated elsewhere so don't check ldflags & text relocations
 INSANE_SKIP_${PN} = "dev-so ldflags textrel"
 
