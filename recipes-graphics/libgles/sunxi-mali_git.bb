@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://README;md5=1b81a178e80ee888ee4571772699ab2c"
 
 COMPATIBLE_MACHINE = "(mele|meleg|cubieboard|cubieboard2|cubietruck|olinuxino-a10|olinuxino-a13|olinuxino-a20)"
 
-DEPENDS = "virtual/libx11 libxau libxdmcp libdrm dri2proto libdri2"
+DEPENDS = "virtual/libx11 libxau libxdmcp libdrm dri2proto libdri2 libump"
 
 # These libraries shouldn't get installed in world builds unless something
 # explicitly depends upon them.
