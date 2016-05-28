@@ -20,5 +20,6 @@ SRC_URI[md5sum] = "96c2c77b1c54ba01cfd8fc2d13fbf828"
 SRC_URI[sha256sum] = "96dd2c30984408a8a2211463618c3564514239f1e4335f6bc461c4b9a9bae30b"
 
 SRC_URI += "https://www.kernel.org/pub/linux/kernel/v4.x/linux-${PV}.tar.xz \
+        file://0001-ARM-dts-add-wifi-to-banana-pro.patch \
         file://defconfig \
         "
